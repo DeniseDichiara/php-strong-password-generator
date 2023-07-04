@@ -1,3 +1,12 @@
+<?php 
+
+
+    $letters1 = ['A',  'B',  'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X','Y', 'Z'];
+    $numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26'];
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -20,17 +29,19 @@
         Strong Password Generator
     </h1>
 
-    <form action="" method="get">
+    <form action="./index.php" method="get">
         <label for="user-password">
             Lunghezza password:
         </label>
         <input type="text" name="user-password">
         <br>
+
         <label for="user-password">
             Consenti ripetizioni di uno o più caratteri:
         </label>
         <input type="radio" name="user-password" value="answer">
         <label for="Sì">Sì</label><br>
+
         <input type="radio" name="user-password" value="answer">
         <label for="No">No</label><br>
 
@@ -39,7 +50,7 @@
 
         <input type="checkbox" name="numeri" value="numeri">
         <label for="vehicle1">Numeri</label><br> 
-        
+
         <input type="checkbox" name="simboli" value="simboli">
         <label for="vehicle1">Simboli</label><br>
     </form>
