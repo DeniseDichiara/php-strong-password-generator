@@ -11,7 +11,7 @@
         array_push($result, $letters[$i], $numbers[$i], $symbols[$i]);
     }
 
-    var_dump($result);
+    //var_dump($result);
 
 
 ?>
