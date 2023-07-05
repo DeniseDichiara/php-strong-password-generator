@@ -8,11 +8,13 @@ $symbols = ['!', '"', '?', '$', '%', '^', '&', '*', '(', ')',  '_', '-', '+', '=
 $result = [];
 //var_dump($result);
 
-
-
-for ($i = 0; $i < count($letters); $i++) {
-    array_push($result, $letters[$i], $numbers[$i], $symbols[$i]);
+function newPasswordGenerator($letters, $numbers, $symbols ){
+    for ($i = 0; $i < count($letters); $i++) {
+        array_push($result, $letters[$i], $numbers[$i], $symbols[$i]);
+    }
 }
+
+
 
 
 
